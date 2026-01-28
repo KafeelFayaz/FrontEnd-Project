@@ -1,0 +1,949 @@
+@import url(https://db.onlinewebfonts.com/c/0aee6008b82cde991ec28387169bb13e?family=GD+Sherpa+Regular);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    height: auto;
+}
+
+.logoHead{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 1px;
+    color: grey;
+    font-family: "GD Sherpa Regular";
+}
+
+.logoHead ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px; 
+    font-family: "GD Sherpa Regular";
+}
+
+#cartpart{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.logoHead a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logoHead img{
+    width: 145px;
+    height: 85px;
+}
+
+#cart{
+    height: 20px;
+    width: 20px;
+    margin: 1px;
+}
+
+/* Search Section - Side by Side Layout */
+.content {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+
+.search-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input {
+    flex: 1;
+    max-width: 500px;
+    height: 45px;
+    padding: 0 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.search-btn {
+    height: 45px;
+    padding: 0 30px;
+    background-color: #00838C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+.domainIcon{
+    display: flex;
+    align-items: center;
+}
+
+.domainIcon img{
+    width: 300px;
+    height: 55px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.footerBox{
+    background-color:#111111;
+    color: #FFFFFF;
+    width: 100%;
+    min-height: 75vh;
+    padding: 40px 60px;
+    margin-top: 40px;
+}
+
+.footerBox h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.footer-signup {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.footsign{
+    background-color: #FFFFFF;
+    color: #111111;
+    height: 40px;
+    padding: 0 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+.footerBox input{
+    background-color: #333;
+    border: 1px solid #555;
+    padding: 10px 15px;
+    width: 400px;
+    height: 40px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 30px 0;
+}
+
+.footItems{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.footItems ul {
+    list-style-type: none;
+}
+
+.footItems h4 {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footItems li{
+    list-style-type: none;
+    line-height: 2;
+    font-size: 0.9rem;
+    color: #ccc;
+    cursor: pointer;
+    font-family: "GD Sherpa Regular";
+}
+
+.footItems li:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footerBox #godady{
+    width: 130px;
+    height: auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Footer bottom wrapper - Side by Side */
+.footer-bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footlogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.Footlogo h4{
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "GD Sherpa Regular";
+}
+
+#social-icon{
+    width: 150px;
+    height: auto;
+}
+
+.socialLogo {
+    display: flex;
+    align-items: center;
+}
+
+.domainInfo{
+    z-index: 1;
+}
+
+.domainInfo img{
+    width: 950px;
+    height: 550px;
+}
+
+.legalPara{
+    font-size: 0.8rem;
+    line-height: 1.8;
+    color: #999;
+    font-family: "GD Sherpa Regular";
+}
+
+.legalPara p {
+    margin-bottom: 15px;
+    font-family: "GD Sherpa Regular";
+}
+
+.legalPara ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    font-family: "GD Sherpa Regular";
+}
+
+/*.legalPara li {
+    cursor: pointer;
+}*/
+
+/*.legalPara li:hover {
+    text-decoration: underline;
+    color: #fff;
+}*/
+
+ .container {
+    display: flex;
+    max-width: 1400px;
+    margin: 40px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    min-height: 500px;
+}
+
+.left-box {
+    flex: 1.5;
+    background-image: url("Container-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 45px;
+}
+
+ .right-box {
+    flex: 1;
+    background-color: #D8EFEF;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-box h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: "GD Sherpa Regular";
+}
+
+.right-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #111111;
+    font-family: "GD Sherpa Regular";
+}
+
+/*.left-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}*/
+
+.left-box > * {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-family: "GD Sherpa Regular";
+}
+
+.left-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "GD Sherpa Regular";
+}
+
+.left-box p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 500px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: "GD Sherpa Regular";
+}
+
+.left-box button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: #111111;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: "GD Sherpa Regular";
+}
+
+.right-box button {
+    padding: 12px 30px;
+    margin-top: 20px;
+    font-size: 1rem;
+    background-color: #111111;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    font-family: "GD Sherpa Regular";
+}
+
+.tableSection{
+    border: 1px solid rgb(153, 147, 147);
+    width: 45%;
+    border-collapse: collapse;
+    font-family: "GD Sherpa Regular";
+    margin: 20px;
+    padding: 10px;
+}
+
+.tableSection td{
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.contain1{
+    display: flex;
+    row-gap: 50px;
+    padding: 35px;
+    margin: 15px;
+    font-size: 70px;
+    font-family: "GD Sherpa Regular";
+}
+
+.contain1 img{
+    border-radius: 25px;
+    width: 550px;
+}
+
+.contain2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+    font-family: "GD Sherpa Regular";
+}
+
+.contain2 img{
+    border-radius: 25px;
+    width: 550px;
+    height: 700px;
+}
+
+.contain2 button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #111111;
+    color: #ffffff;
+    font-family: "GD Sherpa Regular";
+}
+
+.contain2-txt{
+    display: flex;
+    flex-direction: column;
+    line-height: 65px;
+    font-family: "GD Sherpa Regular";
+}
+
+.contain3 button{
+    width: 95px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #111111;
+    color: #ffffff;
+    font-family: "GD Sherpa Regular";
+}
+
+.contain3-txt{
+    display: flex;
+    flex-direction: column;
+    line-height: 65px;
+    font-family: "GD Sherpa Regular";
+}
+
+.contain3 img{
+    border-radius: 25px;
+    width: 550px;
+    height: 700px;
+}
+
+.contain3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+    font-family: "GD Sherpa Regular";
+}
+
+.contain4-txt{
+    display: flex;
+    flex-direction: column;
+    line-height: 65px;
+    align-items: center;
+    font-family: "GD Sherpa Regular";
+}
+
+.contain4-txt button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #111111;
+    color: #ffffff;
+    font-family: "GD Sherpa Regular";
+}
+
+.templates{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(128, 125, 125);
+    align-items: center;
+    padding: 2px;
+    font-family: "GD Sherpa Regular";
+}
+
+.templates img{
+    height: 600px;
+    margin: 15px;
+}
+
+.templates-txt{
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    line-height: 85px;
+    font-size: large;
+    font-family: "GD Sherpa Regular";
+}
+
+.templates #tempBtn{
+    width: 110px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #111111;
+    color: #ffffff;
+    align-items: center;
+    padding: 2px;
+    font-family: "GD Sherpa Regular";
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 95%;
+        margin: 30px auto;
+    }
+    
+    .contain1, .contain2, .contain3 {
+        padding: 25px;
+    }
+    
+    .contain1 img, .contain2 img, .contain3 img {
+        width: 450px;
+        height: auto;
+    }
+    
+    .footItems {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    
+    .domainIcon img {
+        width: 250px;
+        height: auto;
+    }
+}
+
+/* Tablets (max-width: 992px) */
+@media screen and (max-width: 992px) {
+    /* Header Navigation */
+    .logoHead {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .logoHead table {
+        width: 100%;
+    }
+    
+    .logoHead ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        font-size: 0.9rem;
+    }
+    
+    #cartpart {
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    /* Search Section */
+    .search-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .search-container input {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .search-btn {
+        width: 100%;
+    }
+    
+    .domainIcon img {
+        width: 200px;
+        margin-left: 0;
+    }
+    
+    /* Container Section */
+    .container {
+        flex-direction: column;
+        min-height: auto;
+    }
+    
+    .left-box, .right-box {
+        min-height: 400px;
+    }
+    
+    /* Table Section */
+    .tableSection {
+        width: 90%;
+        margin: 20px auto;
+        font-size: 0.9rem;
+    }
+    
+    /* Contains Sections */
+    .contain1 {
+        flex-direction: column;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .contain2, .contain3 {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .contain2 img, .contain3 img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+    
+    .contain2-txt, .contain3-txt, .contain4-txt {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    /* Templates Section */
+    .templates img {
+        width: 100%;
+        height: auto;
+    }
+    
+    /* Footer */
+    .footItems {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    
+    .footer-bottom-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .Footlogo {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Mobile Landscape and Small Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Header */
+    .logoHead img {
+        width: 120px;
+        height: 70px;
+    }
+    
+    .logoHead ul {
+        font-size: 0.85rem;
+        gap: 8px;
+    }
+    
+    /* Search Section */
+    .content {
+        padding: 30px 15px;
+    }
+    
+    .domainIcon {
+        justify-content: center;
+    }
+    
+    .domainIcon img {
+        width: 180px;
+    }
+    
+    /* Container Section */
+    .left-box {
+        padding: 30px 20px;
+        min-height: 350px;
+    }
+    
+    .left-box h1 {
+        font-size: 2rem;
+    }
+    
+    .left-box p {
+        font-size: 1rem;
+    }
+    
+    .right-box {
+        padding: 30px 20px;
+    }
+    
+    .right-box h2 {
+        font-size: 1.6rem;
+    }
+    
+    /* Table Section */
+    .tableSection {
+        width: 95%;
+        font-size: 0.8rem;
+    }
+    
+    .tableSection td {
+        padding: 8px;
+    }
+    
+    /* Contains */
+    .contain1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+    
+    .contain1 img {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .contain2, .contain3 {
+        font-size: 18px;
+        padding: 15px;
+    }
+    
+    .contain2-txt, .contain3-txt, .contain4-txt {
+        line-height: 45px;
+        font-size: 18px;
+    }
+    
+    .contain2 button, .contain3 button, .contain4-txt button {
+        width: 120px;
+        height: 45px;
+    }
+    
+    /* Templates */
+    .templates-txt {
+        line-height: 50px;
+        font-size: 1rem;
+    }
+    
+    /* Footer */
+    .footerBox {
+        padding: 30px 20px;
+    }
+    
+    .footerBox input {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .footer-signup {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .footsign {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .footItems {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .legalPara ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Mobile Portrait (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    /* Header */
+    .logoHead img {
+        width: 100px;
+        height: 60px;
+    }
+    
+    .logoHead ul {
+        font-size: 0.75rem;
+        gap: 5px;
+    }
+    
+    #cart {
+        height: 18px;
+        width: 18px;
+    }
+    
+    /* Search */
+    .search-container input {
+        height: 40px;
+        font-size: 0.9rem;
+        padding: 0 15px;
+    }
+    
+    .search-btn {
+        height: 40px;
+        font-size: 0.9rem;
+        padding: 0 20px;
+    }
+    
+    .domainIcon img {
+        width: 150px;
+    }
+    
+    /* Container */
+    .left-box {
+        padding: 25px 15px;
+        min-height: 300px;
+    }
+    
+    .left-box h1 {
+        font-size: 1.6rem;
+    }
+    
+    .left-box p, .right-box p {
+        font-size: 0.9rem;
+    }
+    
+    .right-box {
+        padding: 25px 15px;
+    }
+    
+    .right-box h2 {
+        font-size: 1.4rem;
+    }
+    
+    .left-box button, .right-box button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    /* Table */
+    .tableSection {
+        width: 98%;
+        font-size: 0.7rem;
+        margin: 15px auto;
+    }
+    
+    .tableSection td {
+        padding: 6px 4px;
+    }
+    
+    /* Contains */
+    .contain1 {
+        font-size: 32px;
+        padding: 15px;
+        margin: 10px 5px;
+    }
+    
+    .contain2, .contain3 {
+        font-size: 16px;
+        margin: 5px;
+        padding: 10px;
+    }
+    
+    .contain2-txt, .contain3-txt, .contain4-txt {
+        line-height: 35px;
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    .contain2 button, .contain3 button, .contain4-txt button {
+        width: 100px;
+        height: 40px;
+        font-size: 0.85rem;
+    }
+    
+    /* Templates */
+    .templates-txt {
+        padding: 10px;
+        line-height: 40px;
+        font-size: 0.9rem;
+    }
+    
+    .templates #tempBtn {
+        width: 100px;
+        height: 45px;
+        font-size: 0.85rem;
+    }
+    
+    /* Footer */
+    .footerBox {
+        padding: 25px 15px;
+    }
+    
+    .footerBox h3 {
+        font-size: 1rem;
+    }
+    
+    .footerBox input {
+        width: 100%;
+        height: 38px;
+        font-size: 0.9rem;
+    }
+    
+    .footsign {
+        width: 100%;
+        height: 38px;
+    }
+    
+    .footItems h4 {
+        font-size: 0.95rem;
+    }
+    
+    .footItems li {
+        font-size: 0.8rem;
+        line-height: 1.8;
+    }
+    
+    .Footlogo h4 {
+        font-size: 0.8rem;
+    }
+    
+    #social-icon {
+        width: 120px;
+    }
+    
+    .legalPara {
+        font-size: 0.7rem;
+    }
+}
+
+/* Extra Small Mobile (max-width: 360px) */
+@media screen and (max-width: 360px) {
+    .logoHead ul {
+        font-size: 0.5rem;
+    }
+    
+    .left-box h1 {
+        font-size: 1.4rem;
+    }
+    
+    .contain1 {
+        font-size: 28px;
+    }
+    
+    .tableSection {
+        font-size: 0.65rem;
+    }
+    
+    .footItems h4 {
+        font-size: 0.9rem;
+    }
+    
+    .footItems li {
+        font-size: 0.75rem;
+    }
+}
